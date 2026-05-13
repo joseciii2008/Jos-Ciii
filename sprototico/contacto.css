@@ -1,0 +1,120 @@
+body {
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+header{
+  background-color: rgb(250, 204, 204);
+  border-radius: 18px;
+  height: 120PX;
+ /* border-radius:20px;*/
+}
+.titulo{
+  color: rgb(2, 2, 146);
+  background-color:rgba(250, 235, 215, 0);
+}
+
+.canto{
+  text-align:center;
+}
+.conteudo{
+  background-color: rgba(255, 255, 255, 0);
+  text-align: end;
+}
+.butao{
+  color: rgb(0, 0, 0);
+  background-color: rgb(56, 54, 54);
+  border-radius: 10px;
+  width:100px;
+  font: bolder;
+  height: max-content;
+  
+}
+.butao:hover{
+  color: white;
+  background-color:rgb(247, 118, 118);
+
+
+}
+.link{
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  color: black;
+  font: bolder;
+}
+.link:hover{
+  color: white;
+
+
+}
+
+.cont1{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.esquerda{
+  width: 40%;
+  background-color: rgba(139, 124, 124, 0.493);
+  padding: 20px;
+  border: 1px solid rgb(134, 123, 123);
+  border-radius: 10px;
+}
+
+.direita {
+  width: 40%;
+  background-color:rgba(145, 130, 130, 0.473);
+  padding: 20px;
+  border: 1px solid rgb(134, 123, 123);
+  border-radius: 10px;
+  box-shadow: rgb(204, 21, 58);
+}
+
+.contacto {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.redes-sociais li {
+  margin-bottom: 10px;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.redes-sociais a:hover {
+  color: #23527c;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input, .formulario textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #23527c;
+}
+.ll{
+  text-decoration: none;
+  color:rgb(77, 72, 72);
+}

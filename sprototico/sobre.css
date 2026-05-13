@@ -1,0 +1,104 @@
+*{
+  background-color: antiquewhite;
+  
+}
+header{
+  background-color: rgb(250, 204, 204);
+  border-radius: 18px;
+  height: 120PX;
+ /* border-radius:20px;*/
+}
+.titulo{
+  color: rgb(2, 2, 146);
+  background-color:rgba(235, 182, 182, 0);
+}
+.canto{
+  text-align:center;
+}
+.conteudo{
+  background-color: rgba(255, 255, 255, 0);
+  text-align: end;
+}
+.butao{
+  color: rgb(0, 0, 0);
+  background-color: rgb(56, 54, 54);
+  border-radius: 10px;
+  width:100px;
+  font: bolder;
+  height: max-content;
+  
+}
+.butao:hover{
+  color: white;
+  background-color:rgb(247, 118, 118);
+
+
+}
+.link{
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  color: black;
+  font: bolder;
+
+}
+
+.link:hover{
+  color: white;
+
+
+}
+      
+
+  /*SOBRE MIM*/
+h3{
+  font-size: 28px;
+  text-align: center;
+}
+
+.t2{
+  font-weight:bolder;
+  /*text-align: center;*/
+  background-color:rgb(221, 173, 173);
+  color:rgb(49, 81, 185);
+  margin: auto;
+  width:fit-content;
+  border-radius: 5px;
+ 
+}
+.corpo{
+  border-radius: 30px;
+  background-color: rgb(146, 146, 146);
+
+}
+.d1{
+  border-radius: 50px;
+  height: 20em;
+  background-color: rgba(153, 138, 138, 0.253);
+}
+.titulo3{
+  background-color:rgba(245, 222, 179, 0) ;
+  text-decoration:none;
+  color:rgb(15, 15, 211);
+  top:20px;
+  font-size:37px;
+
+}
+.ab{
+  background-color: rgba(180, 175, 175, 0.295);
+}
+
+.texto{
+  background-color: rgba(240, 248, 255, 0);
+  text-align: justify;
+
+}
+.imagem{
+  float: left;
+  text-align: justify;
+width: 400px; /* largura da imagem */
+height:400px; /* altura da imagem */
+border-radius: 50%; /* torna a imagem circular */
+object-fit: cover;
+}
+
+
